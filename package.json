@@ -2,9 +2,18 @@
   "name": "@regrapes/eslint-config",
   "version": "1.7.1",
   "description": "REGRAPES best practice eslint config",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "author": "REGRAPES GmbH",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "react",
+    "prettier"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -26,11 +35,39 @@
     "eslint-plugin-standard": "^5.0.0",
     "prettier": "^2.4.1"
   },
-  "peerDependencies": {
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^18.0.0",
     "typescript": "^4.5.2"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "typescript": "^4.5.0"
   },
-  "gitHead": "296c694d4ae1dbb24caeb1946d394063a4388b95"
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/npm",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json",
+            "package-lock.json"
+          ],
+          "message": "chore(release): 🚀 ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ],
+      "@semantic-release/github"
+    ]
+  }
 }
