@@ -1,0 +1,36 @@
+{
+  "name": "@regrapes/eslint-config",
+  "version": "1.7.1",
+  "description": "REGRAPES best practice eslint config",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0"
+  },
+  "gitHead": "296c694d4ae1dbb24caeb1946d394063a4388b95"
+}
