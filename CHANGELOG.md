@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/regrapes/eslint-config/compare/v1.7.1...v1.8.0) (2021-11-24)
+
+
+### Features
+
+* remove no-unused-vars-experimental ([21a764f](https://github.com/regrapes/eslint-config/commit/21a764fe0f74ea6575d7293bb597afa644450a59))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

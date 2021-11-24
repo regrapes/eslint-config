@@ -1,6 +1,6 @@
 {
   "name": "@regrapes/eslint-config",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "REGRAPES best practice eslint config",
   "scripts": {
     "semantic-release": "semantic-release"
@@ -45,7 +45,9 @@
     "typescript": "^4.5.0"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
