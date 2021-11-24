@@ -1,5 +1,5 @@
-module.exports = process.env.CI ? {
-  extends: [
-    './prettier.js'
-  ]
-} : {}
+module.exports = process.env.CI
+  ? {
+      extends: ["./prettier.js"],
+    }
+  : {};
