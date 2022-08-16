@@ -29,7 +29,7 @@ module.exports = {
     },
   },
   rules: {
-    complexity: ["error", 10],
+    complexity: ["error", 20],
     camelcase: "off",
     "no-unused-expressions": "off",
     "valid-typeof": "off",
@@ -37,7 +37,6 @@ module.exports = {
     "no-unused-vars": "off",
     "no-extra-boolean-cast": "off",
     "no-plusplus": "off",
-    "no-unused-vars": "off",
     "no-else-return": "off",
     "no-multiple-empty-lines": "error",
     "no-underscore-dangle": "off",
@@ -52,7 +51,10 @@ module.exports = {
     "@typescript-eslint/no-redeclare": "error",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { ignoreRestSiblings: true, argsIgnorePattern: "^_" },
+    ],
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/array-type": ["error", { default: "generic" }],
