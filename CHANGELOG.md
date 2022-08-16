@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/regrapes/eslint-config/compare/v1.8.0...v1.9.0) (2022-08-16)
+
+
+### Bug Fixes
+
+* **package-lock:** update to current package.json ([949bbae](https://github.com/regrapes/eslint-config/commit/949bbaec4bb65950fdefb2ea89a3d822324195a9))
+
+
+### Features
+
+* **base/rules:** update complexity & no-unused-vars ([fcb18c3](https://github.com/regrapes/eslint-config/commit/fcb18c3b28e1b9c6a59790188a7e0f395b3b6cf7))
+* **dependencies:** update all ([2785f79](https://github.com/regrapes/eslint-config/commit/2785f79e348cd85ab8e0050b13326948fc0187c3))
+
 # [1.8.0](https://github.com/regrapes/eslint-config/compare/v1.7.1...v1.8.0) (2021-11-24)
 
 
