@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/regrapes/eslint-config/compare/v1.9.0...v1.10.0) (2022-11-14)
+
+
+### Bug Fixes
+
+* replace eslint-plugin-node with missing eslint-plugin-n ([4af4312](https://github.com/regrapes/eslint-config/commit/4af4312daa523cff148666b5242da29751149ade))
+
+
+### Features
+
+* disable fp rest rule ([36cd30b](https://github.com/regrapes/eslint-config/commit/36cd30ba1b55434176c846c924b6a44ff046d805))
+
 # [1.9.0](https://github.com/regrapes/eslint-config/compare/v1.8.0...v1.9.0) (2022-08-16)
 
 
