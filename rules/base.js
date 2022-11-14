@@ -3,7 +3,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
     "airbnb-base",
-    "standard",
+    "standard"
   ],
   parser: "@typescript-eslint/parser",
   ignorePatterns: ["node_modules", "build", "dist"],
@@ -16,7 +16,7 @@ module.exports = {
   env: {
     es2021: true,
   },
-  plugins: ["@typescript-eslint", "standard", "import"],
+  plugins: ["@typescript-eslint", "import"],
   settings: {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"],
