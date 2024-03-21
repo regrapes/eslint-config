@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/regrapes/eslint-config/compare/v1.10.0...v1.10.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* allow ts v5 as peer dep ([815717a](https://github.com/regrapes/eslint-config/commit/815717a3313c5db4cb1a88dd7e086d7994b9e81c))
+
 # [1.10.0](https://github.com/regrapes/eslint-config/compare/v1.9.0...v1.10.0) (2022-11-14)
 
 

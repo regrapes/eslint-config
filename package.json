@@ -1,6 +1,6 @@
 {
   "name": "@regrapes/eslint-config",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "REGRAPES best practice eslint config",
   "scripts": {
     "semantic-release": "semantic-release"
