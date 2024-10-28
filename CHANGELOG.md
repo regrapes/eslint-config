@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/regrapes/eslint-config/compare/v1.10.1...v2.0.0) (2024-10-28)
+
+
+### Bug Fixes
+
+* **github:** node version to 18 ([6d12c90](https://github.com/regrapes/eslint-config/commit/6d12c90fc9b8b9b0ecf2c24f92f5ed7c5f2ce1be))
+* **github:** node version to 20 ([1006247](https://github.com/regrapes/eslint-config/commit/100624704ebc095082f851d94690d2dbc0c7e962))
+
+
+### Features
+
+* uprade to eslint9 ([3f253f2](https://github.com/regrapes/eslint-config/commit/3f253f2e3a1d551e655779b8f992a6ae7b6e8755))
+
+
+### BREAKING CHANGES
+
+* old eslint config do not work anymore, change to flatConfig
+
 ## [1.10.1](https://github.com/regrapes/eslint-config/compare/v1.10.0...v1.10.1) (2024-03-21)
 
 
