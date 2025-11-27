@@ -1,3 +1,14 @@
+## [2.0.1](https://github.com/regrapes/eslint-config/compare/v2.0.0...v2.0.1) (2025-11-27)
+
+
+### Bug Fixes
+
+* dependecies update ([7daa620](https://github.com/regrapes/eslint-config/commit/7daa620a58f1012a7dbc1029f235a03a08771365))
+* update github action for oidc token ([5ebcc0d](https://github.com/regrapes/eslint-config/commit/5ebcc0d034cd0c2a08c384263a1d08456cc7673c))
+* update github actions cache version ([d8b73fb](https://github.com/regrapes/eslint-config/commit/d8b73fb178aae1da6373975e0160f3b494e8366d))
+* update github actions node version ([c34beb3](https://github.com/regrapes/eslint-config/commit/c34beb3546c2875a50e614dba0ece559eb6aa974))
+* workflow permissions ([53fd4a6](https://github.com/regrapes/eslint-config/commit/53fd4a64f49ac7f9ce08687debe47a585aac4924))
+
 # [2.0.0](https://github.com/regrapes/eslint-config/compare/v1.10.1...v2.0.0) (2024-10-28)
 
 
